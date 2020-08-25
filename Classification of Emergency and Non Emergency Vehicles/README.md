@@ -6,6 +6,8 @@ could correctly classify the images into **Emergency** (for example: ambulance, 
 (Eg: Passenger Car, SUV etc.). Accuracy is taken as the performance metric.
 I used two approaches: a **normal CNN** and **transfer learning**.
 
+![](sample_image.png)
+
 In the first approach, I trained a normal CNN with 4 convolution + maxpooling layers and 2 dense fully connected 
 layers and managed to get into 83% accuracy even with fine tuning. I think, the normal CNN like the one I have used has its own limitations, 
 since the problem  is somewhat hard. The model should be able to pick the minute features that could help to distinguish 
